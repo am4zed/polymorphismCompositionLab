@@ -1,0 +1,37 @@
+Polymorphism & Composition Homework - Quiz
+
+Polymorphism
+What does the word 'polymorphism' mean?
+'Poly' means many and 'morph' means to change shape. Therefore polymorphism is the ability to have many forms.
+
+What does it mean when we apply polymorphism to OO design? Give a simple Java example.
+When we can treat an instance of a class as if it is also another type or class at the same time.
+
+What can we use to implement polymorphism in Java?
+Polymorphism can be implemented using both abstract classes and interfaces
+
+How many 'forms' can an object take when using polymorphism?
+If you use interfaces, an object can take as many forms as you like. If using chained inheritance, the object can take the form of any class  above it in the chain.
+
+Give an example of when you could use polymorphism.
+You have a class Park which implements the interface iGrow. Park has a subclass Tree. An instance of Tree can take on the form and methods of a Tree or an iGrow.
+
+
+Composition
+What do we mean by 'composition' in reference to object-oriented programming?
+Composition in the object-orientated sense is we see an object as being composed of other objects. When we examine what it has rather than what it is.
+The object owns and has access to all of the behaviours that the objects it is composed of have.
+
+When would you use composition? Provide a simple example in Java.
+You could have an instance of a Shop class that is composed of an array list of instances of the ShopAssistant class.
+ShopAssistant has the method sell(item) so this can be utilised inside of the Shop class as it is composed of ShopAssistants.
+
+What is/are the advantage(s) of using composition?
+`We can compose an object of other objects to give us the functionality that we need.
+It also has less limitations than inheritance as in inheritance an object can only inherit from one superclass.
+This means sometimes we can't get the behaviour we need. Clever composition solves this problem as you can compose an object from as many other object as you need,
+enabling access to all of their respective behaviours.
+
+
+When an object is destroyed, what happens to all the objects it is composed of?
+All of the objects it is composed on are also destroyed. 
